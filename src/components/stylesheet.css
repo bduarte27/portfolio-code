@@ -1,0 +1,93 @@
+.intro {
+    background: #43484d;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.selfie {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 270px;
+    width: 250px;
+}
+
+.about {
+    display: inline-block;
+    max-width: 600px;
+}
+
+.about h1 {
+    font-size: 50px;
+    line-height: 5px;
+}
+
+.about p {
+    padding-left: 40px;
+}
+
+.intro button {
+    background-color: lightblue;
+    border: 0;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin: 0 20px;
+    margin-top: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.intro button:hover {
+    transform: scale(1.1);
+}
+
+.main-body {
+    text-align: center;
+}
+
+.projects-container {
+    display: grid;
+    max-width: 950px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.item {
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
+    width: 250px;
+    margin: 15px;
+    padding-bottom: 10px;
+}
+
+.item a {
+    text-decoration: none;
+}
+
+.item-pic {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.item h2 {
+    color: black;
+    margin: 0;
+}
+
+.item h4 {
+    font-weight: normal;
+    font-size: 14px;
+    color: deepskyblue;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.item p {
+    font-size: 16px;
+    margin: 0;
+}
